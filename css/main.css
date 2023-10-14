@@ -36,7 +36,9 @@ header {
 
 }
 
-@media (max-width: 768px) {
+
+
+@media (max-width: 1123px) {
     header {
         display: flex;
         justify-content: center;
@@ -102,7 +104,9 @@ main{
     grid-area: none;
 }
 
-@media (max-width: 768px) {
+
+
+  @media (max-width: 1350px) {
     main {
         display: flex;
         flex-direction: column;
@@ -232,7 +236,7 @@ main img{
     margin-bottom: 100px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .first{
         display: flex;
         flex-direction: column;
@@ -327,7 +331,7 @@ main img{
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .second img{
         display: none;
         width: 0px;
@@ -415,7 +419,7 @@ footer{
     background-color: rgba(0, 0, 0, 0.187);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     footer{
         display: flex;
         justify-content: space-around;
