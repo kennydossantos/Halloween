@@ -26,7 +26,7 @@ This one-page website is a spooky celebration of Halloween, created for NTI Gymn
 - A real-time countdown to Halloween, adding an exciting interactive element.
 
 ## How to Access
-Visit the [Halloween One Page Site](#) and embrace the Halloween spirit!
+Visit the [Halloween One Page Site](https://kennydossantos.github.io/Halloween/) and embrace the Halloween spirit!
 
 ## Credits
 © Kenny Dos Santos
