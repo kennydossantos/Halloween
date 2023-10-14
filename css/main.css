@@ -441,6 +441,10 @@ footer .link a{
     font-size: 1rem;
 }
 
+.link a:hover{
+    color: hsl(0, 0%, 80%);
+}
+
 footer .copyright{
     color: white;
     font-family: "montserrat", sans-serif;
