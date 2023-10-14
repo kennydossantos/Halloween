@@ -423,6 +423,14 @@ footer{
         padding-left: 0;
         padding-right: 0;
     }
+
+    footer .link a{
+        font-size: .8rem !important;
+    }
+
+    footer .copyright{
+        font-size: .8rem !important;
+    }
 }
 
 
