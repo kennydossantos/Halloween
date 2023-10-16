@@ -1,5 +1,7 @@
+// Set the current year in a new variable; makes it so we dont need to update
+currentYear = new Date().getFullYear()
 // Set the date we're counting down to
-var countDownDate = new Date("Oct 31, 2023 00:00:00").getTime();
+var countDownDate = new Date("Oct 31, " + currentYear + " 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -25,3 +27,6 @@ var x = setInterval(function () {
         document.getElementById("demo").innerHTML = "EXPIRED";
     }
 }, 1000);
+
+// Set the current year in the footer
+document.getElementById("currentYear").innerHTML = currentYear;
