@@ -1,6 +1,3 @@
-// Set the current year; this makes it so that we will never have to update the year manually
-currentYear = new Date().getFullYear()
-
 // Set the date we're counting down to
 var countDownDate = new Date("Oct 31, 2023 00:00:00").getTime();
 
