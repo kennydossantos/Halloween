@@ -1,5 +1,7 @@
 // Set the current year in a new variable; makes it so we dont need to update
 currentYear = new Date().getFullYear()
+//currentYear = 2024; Test if above works.
+
 // Set the date we're counting down to
 var countDownDate = new Date("Oct 31, " + currentYear + " 00:00:00").getTime();
 
