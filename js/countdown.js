@@ -32,3 +32,4 @@ var x = setInterval(function () {
 
 // Set the current year in the footer
 document.getElementById("currentYear").innerHTML = currentYear;
+document.getElementById("copyrightYear").innerHTML = currentYear;

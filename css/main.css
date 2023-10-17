@@ -443,6 +443,7 @@ footer .link a{
     text-decoration: none;
     font-family: "montserrat", sans-serif;
     font-size: 1rem;
+    font-weight: 100;
 }
 
 .link a:hover{
@@ -453,4 +454,5 @@ footer .copyright{
     color: white;
     font-family: "montserrat", sans-serif;
     font-size: 1rem;
+    font-weight: 100;
 }
