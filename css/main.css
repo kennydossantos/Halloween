@@ -313,9 +313,20 @@ main img{
     margin-top: 10px;
 }
 
-.animation:hover{
-    transform: translateY(-.5rem);
-    transition-duration: .5s;
+.animation:hover {
+    animation: pulse 2s ease;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translateY(0rem);
+    }
+    50% {
+        transform: translateY(-.5rem);
+    }
+    100% {
+        transform: translateY(0rem);
+    }
 }
 
 /* Second section CSS */
