@@ -1,4 +1,6 @@
 # Halloween One Page Site
+![alt text](img/NTIBanner.png)
+
 
 ## Overview
 This one-page website is a spooky celebration of Halloween, created for NTI Gymnasiet Johanneberg, Sweden. The site takes you on a journey through famous Halloween characters, explores the origins of the holiday, and even includes a countdown to the big day.
