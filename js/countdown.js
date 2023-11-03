@@ -1,15 +1,15 @@
 // Set the current year in a new variable; makes it so we dont need to update
 currentYear = new Date().getFullYear()
-//currentYear = 2024; Test if above works.
+currentYear = 2024;
 
 // Set the date we're counting down to
 var countDownDate = new Date("Oct 31, " + currentYear + " 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
-
     // Get today's date and time
     var now = new Date().getTime();
+
 
     // Find the distance between now and the count down date
     var distance = countDownDate - now;
@@ -21,7 +21,7 @@ var x = setInterval(function () {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s "+ "kvar till Halloween";
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s " + "kvar till Halloween";
 
     // If the count down is finished, write some text
     if (distance < 0) {
